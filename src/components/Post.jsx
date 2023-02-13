@@ -6,6 +6,9 @@ import { Avatar } from './Avatar';
 import { Comment } from './comment';
 import styles from './Post.module.css';
 
+const felippe = () => {
+    return ('vasco')
+}
 
 export function Post({ author, publishedAt, content}) {
 
